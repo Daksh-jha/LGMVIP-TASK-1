@@ -1,0 +1,314 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{font-family: sans-serif;}
+div,section,ul,li,header,a{box-sizing: border-box;}
+header{
+  height: 15vh;
+  background-color: #Ebe243;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+.logo{
+  width: 100%;
+  height: 80px;
+}
+#menu li{
+  list-style: none;
+  display: inline-block;
+  margin:20px;
+}
+#menu li a{
+ color: black;
+ font-weight: bold;
+ font-size: 20px;
+ text-transform: uppercase;
+ padding: 4px 9px;
+ border-radius: 3px;
+}
+#menu li a:hover{
+	background: #Eb9943;
+	transition: .5s;
+}
+section{
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+#home{background:url(yehh.jpg);}
+.mainview{
+  width:42%;
+  font-size: 48px;
+  margin-top: 30vh;
+  line-height: 12vh;
+  margin-left: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.maincont{
+  width:51%;
+  font-size: 19px;
+  line-height: 4vh;
+  margin-top: 5vh;
+  margin-left: 50px;
+  font-weight: bolder;
+  color: white;
+}
+h2{
+margin-left: 65px;
+text-shadow:1px 0px 3px gray;
+}
+h3{
+font-size:18px;
+text-align:center;
+text-shadow:1px 0px 3px gray;
+}
+.forma{
+  background-color: white;
+  width:35%;
+  float: right;
+  font-size: 19px;
+  line-height: 4vh;
+  margin-top: -58vh;
+  margin-right: 60px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 8px;
+}
+#contactdiv{
+  color: black;
+  opacity: 0.96;
+  margin-left: 70px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.why{
+  margin-left: 100px;
+  font-size:30px;
+}
+.why a{
+  color: white;
+  font-size:26px;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-radius: 3px;
+  background-color: blue;
+  shadow:1px 0px 3px gray;
+}
+.why a:hover{
+  transition: 0.5s;
+  background-color: yellow;
+  color: black;
+}
+#send{
+  font-size: 20px;
+  background: #16c436;
+  color:black;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+#contactno, #name , #message, #email{
+  font-size: 12px;
+  background: none;
+  color:black;
+  padding: 5px;
+  border-radius: 6px;
+  font-weight: bold;
+  border: solid black 2px;
+}
+#about{ background: url(hope.jpg);}
+.abouth {
+  font-size: 34px;
+  margin-left: 40px;
+  top: 30px;
+  margin-bottom: 25px;
+  color: #091255;
+}
+.aboutp{
+  color:#033A5F;
+  font-size: 18px;
+  margin:25px;
+}
+#mission{
+  background:url(chant.png);
+}
+.mission{
+  float:right;
+  width: 25%;
+  height: 55vh;
+  margin-top: 90px;
+  margin-right: 30px;
+  background-color: pink;
+  border-radius: 7px;
+  padding-left: 12px;
+  border: #C70039 solid 2px;
+  color: #C70039;
+}
+#video{background-color: #008080;
+}
+.vid1{
+  height: 450px;
+  width: 24%;
+  top: 80px;
+  margin: 50px;
+  display: inline-block;
+  background: pink;
+  position: relative;
+}
+.vid2{
+  height: 450px;
+  width: 24%;
+  top: 80px;
+  margin-top: 50px;
+  margin-left:100px;
+  display: inline-block;
+  background: yellow;
+  position: absolute;
+  float: left;
+}
+.vid3{
+  height: 450px;
+  width: 24%;
+  top: 80px;
+  margin: 50px;
+  display: inline-block;
+  background: pink;
+  float: right;
+  position: relative;
+}
+#member{
+  background:url(neend.jpg);
+  font: black;
+  font-weight: bolder;
+}
+#member h1{  font-size: 48px;
+  margin-top:30px;
+  margin-left:30px;
+}
+.mem1{
+height: 450px;
+width: 15%;
+top: 20px;
+margin: 50px;
+margin-left: 40px;
+display: inline-block;
+background: pink;
+position: relative;
+color: #fc033d;
+}
+.mem2{
+height: 304px;
+width: 50.5%;
+top: 148px;
+margin-top: 50px;
+margin-left:33.5px;
+display: inline-block;
+position: absolute;
+float: left;
+color: #260838;
+}
+.mem2  a{
+	color:#fc033d;
+	font-size:22px;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-radius: 3px;
+}
+.mem2  a:hover{
+	background: pink;
+	transition: .5s;
+}
+.big{
+  margin: 30px;
+  height: 200px;
+  width: 91%;
+  display: flex;
+}
+.ya {
+  margin-left: 30px;
+  font-size:24px;
+  font-style: oblique;
+  display: inline-flex;
+  line-height: 25px;
+}
+.profile{
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  position: relative;
+}
+.tareef{
+  height: 30px;
+  position: relative;
+  padding: 5 5px;
+  font-size: 22px;
+}
+.mem3{
+  height: 450px;
+  width: 15%;
+  top: 20px;
+  margin: 50px;
+  display: inline-block;
+  background: pink;
+  float: right;
+  position: relative;
+  color: #fc033d;
+}
+#contact{
+  height: 104vh;
+  border: inset yellow 12px;
+  background-image: url(gems.jpeg);
+}
+.cont {
+  font-size: 58px;
+  color:white;
+  width: 69%;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-weight: bolder;
+  background-color: #0e021a;
+  border-radius: 20px;}
+.map{
+  display: inline-block;
+  margin:60px;
+}
+.forum{
+  display: inline-block;
+  background-color: #C70039;
+  height:440px;
+  width: 38%;
+  float:right;
+  color:white ;
+  padding: 0 60px;
+  font-size: 19px;
+  margin: 52px;
+  border-radius: 24px;
+  border: solid aqua 9px;
+}
+.forum h3{
+  color:black;
+  line-height: 46px;
+}
+.forum ul li {
+	display : inline-block;
+	line-height: 50px;
+}
+.forum  a{
+	color:#FFC300;
+	font-size:22px;
+	font-weight: bold;
+	padding: 3px 8px;
+	border-radius: 3px;
+}
+.forum  a:hover{
+	background: black;
+	transition: .5s;
+}
